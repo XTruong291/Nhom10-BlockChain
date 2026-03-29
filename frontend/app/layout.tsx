@@ -28,6 +28,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <div className="bg-slate-50">
+          by Xtruong291
+        </div>
       </body>
     </html>
   );

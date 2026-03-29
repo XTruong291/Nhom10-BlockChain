@@ -62,7 +62,7 @@ def mine():
     last_nonce = last_block['nonce']
     nonce = blockchain.proof_of_work(last_nonce)
     
-    previous_hash = last_block['hash'] #sai login nhé
+    previous_hash = last_block['hash'] #sai login nhé(đã sửa)
 
     block = blockchain.create_block(nonce, previous_hash)
     
